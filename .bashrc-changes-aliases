@@ -1,0 +1,43 @@
+# bash aliases n changes 
+
+alias d="cd ~/Downloads"
+alias s="cd ~/Scripts"
+alias p="cd ~/Pictures"
+alias ds="cd ~/Documents"
+alias dev="cd ~/Development"
+alias m="cd ~/Music"
+alias l="ls -la"
+alias c="cd"
+alias pds="podman stats"
+
+echo "- - - - - - - - - - - - - - - - - - - - - - -"
+cat << "EOF"
+                                                           
+bbbbbbbb                                                   
+b::::::b                 000000000                         
+b::::::b               00:::::::::00                       
+b::::::b             00:::::::::::::00                     
+ b:::::b            0:::::::000:::::::0                    
+ b:::::bbbbbbbbb    0::::::0   0::::::0xxxxxxx      xxxxxxx
+ b::::::::::::::bb  0:::::0     0:::::0 x:::::x    x:::::x 
+ b::::::::::::::::b 0:::::0     0:::::0  x:::::x  x:::::x  
+ b:::::bbbbb:::::::b0:::::0 000 0:::::0   x:::::xx:::::x   
+ b:::::b    b::::::b0:::::0 000 0:::::0    x::::::::::x    
+ b:::::b     b:::::b0:::::0     0:::::0     x::::::::x     
+ b:::::b     b:::::b0:::::0     0:::::0     x::::::::x     
+ b:::::b     b:::::b0::::::0   0::::::0    x::::::::::x    
+ b:::::bbbbbb::::::b0:::::::000:::::::0   x:::::xx:::::x   
+ b::::::::::::::::b  00:::::::::::::00   x:::::x  x:::::x  
+ b:::::::::::::::b     00:::::::::00    x:::::x    x:::::x 
+ bbbbbbbbbbbbbbbb        000000000     xxxxxxx      xxxxxxx
+                                                                                                                      
+                                                          
+EOF
+echo "То, что тебя не убивает, делает тебя сильнее."
+echo ""
+uname -a
+echo ""
+echo "Uptime: " &&  uptime
+echo ""
+echo "- - - - - - - - - - - - - - - - - - - - - - -"
+
